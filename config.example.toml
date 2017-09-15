@@ -1,2 +1,4 @@
-# data source name for MySQL
-DBDsn = "root:password@tcp(127.0.0.1:3306)/gocounter"
+# MongoDB connection string
+Connection = "127.0.0.1"
+# DB name
+DB = "gocounter"

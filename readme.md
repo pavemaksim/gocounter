@@ -4,14 +4,14 @@ Very simple counter written in Go. It allows you to track total count for some u
 
 # Requirements
 
-Go 1.7+
-MySQL 5.6+
+- Go 1.7+
+- MongoDB 3.0+
 
 # Deploy
 
 - Grab source code `git clone`
 - Create config file: `cp config.example.toml config.toml`
-- Set up your DB connection via `DBDsn` parameter in `config.toml`
+- Set up your DB connection in `config.toml`
 - `go run main.go` and you're done!
 
 # API
